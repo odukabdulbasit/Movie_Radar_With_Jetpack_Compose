@@ -1,10 +1,11 @@
 package com.odukabdulbasit.movieradar.model
 
+import com.odukabdulbasit.movieradar.network.NetworkMovie
 import com.squareup.moshi.Json
 
 data class MovieObjects(
     val page : Int,
-    @Json(name = "results") val movieList : List<Movie>,
+    @Json(name = "results") val movieList : List<NetworkMovie>,
     val total_results: Int,
     val total_pages: Int
 )

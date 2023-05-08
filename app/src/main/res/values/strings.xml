@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Movie Radar</string>
+    <string name="movie_detail">Movie Detail</string>
+    <string name="movie_recommendation">Movie Recommendation</string>
+    <string name="back_button">Back</string>
+    <string name="please_shake_the_phone_to_get_film_recommendation">Please shake the phone to get film recommendation.</string>
 </resources>
